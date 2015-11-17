@@ -1,6 +1,6 @@
 class profile::hubot(
   $bot_name = 'hubot',
-  $version  = '0.1.1',
+  $version  = '0.1.2',
 ) {
   ## Common
   class { '::hubot':
@@ -18,7 +18,7 @@ class profile::hubot(
   $_npm_packages  = {
     'hubot'            => '2.17.0',
     'hubot-scripts'    => '2.16.2',
-    'hubot-stackstorm' => '0.2.5',
+    'hubot-stackstorm' => '0.3.0',
     'hubot-irc'        => '0.2.8',
     'hubot-flowdock'   => '0.7.6',
     'hubot-slack'      => '3.4.2',
